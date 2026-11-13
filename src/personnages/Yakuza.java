@@ -52,4 +52,11 @@ public class Yakuza extends Humain {
 		    parler("J'ai gagné mon duel et je possède maintenant "
 		            + getArgent() + " sous. Hi ! Hi !");
 		}
+	 
+	 @Override
+	 public void direBonjour() {
+	     super.direBonjour();
+	     parler("Mon clan est celui de " + clan + ".");
+	 }
+	 
 }
